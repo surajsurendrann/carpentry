@@ -1,0 +1,25 @@
+.listItemContainer {
+  background-color: rgba(255, 255, 255);
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  color: black;
+  margin: 5px 0px;
+  cursor: pointer;
+  box-shadow: 1px 2px 5px;
+  &:hover {
+    background-color: rgb(236, 236, 236);
+  }
+}
+
+.leftListItem {
+  flex: 1;
+}
+.centerListItem {
+  flex: 1;
+}
+.rightListItem {
+  flex: 1;
+  display: flex;
+  justify-content: end;
+}
